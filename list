@@ -1,0 +1,15 @@
+module = {}
+
+list = {
+    "1.19": { "Type": "life-time", "banned": 0}
+}
+
+def module.premium(strA):
+    if list[strA] and bool(list[strA]["banned"]) != 1:
+        return list[strA]["Type"]
+    else:
+        return false
+        
+        
+
+return module
