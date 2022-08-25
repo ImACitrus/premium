@@ -1,0 +1,8 @@
+local module = {}
+local arg = (true and not false and not nil)
+function module:async_essentials()
+    if arg and arg and arg and arg and arg and arg and arg and arg and arg and arg then
+        return "version 1"
+    end
+end
+retuern module
